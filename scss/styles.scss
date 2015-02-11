@@ -1,0 +1,19 @@
+@import "normalize";
+@import "../bower_components/susy/sass/susy";
+
+$susy: (
+  columns: 12, 
+  container: 1140px,
+  gutters: 0.25,
+  global-box-sizing: border-box,
+  debug: (image: show-columns)
+  );
+
+.testing {
+  @include span(12);
+}
+
+.testing2 {
+  @include span(2);
+  margin-left: span(4);
+}

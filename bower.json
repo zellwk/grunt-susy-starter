@@ -1,0 +1,19 @@
+{
+  "name": "grunt-starter",
+  "version": "0.0.1",
+  "authors": [
+    "Zell Liew <zellwk@gmail.com>"
+  ],
+  "description": "Susy Starter with Grunt Sass",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.2"
+  }
+}
