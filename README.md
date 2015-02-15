@@ -1,6 +1,6 @@
 ## Grunt Susy Starter 
 
-This is a starter project template that uses LibSass to compile Susy with Grunt. Detailed instructions on how this template is set up is found at 
+This is a starter project template that uses LibSass to compile Susy with Grunt. Detailed instructions on how this template is set up is found at [http://www.zell-weekeat.com/grunt-sass-with-susy/](http://www.zell-weekeat.com/grunt-sass-with-susy/)
 
 ## Project Setup  
 
