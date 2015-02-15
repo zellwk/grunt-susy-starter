@@ -1,5 +1,6 @@
 @import "normalize";
 @import "../bower_components/susy/sass/susy";
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 
 $susy: (
   columns: 12, 
@@ -16,4 +17,13 @@ $susy: (
 .testing2 {
   @include span(2);
   margin-left: span(4);
+}
+
+.testing3 {
+  @include span(2);
+  margin-left: span(6);
+  @include breakpoint(20em) {
+    @include span(4); 
+    margin-left: span(3);
+  }
 }

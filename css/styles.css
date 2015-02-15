@@ -329,4 +329,28 @@ table {
   
   margin-left: 32.2033898305%; }
 
+.testing3 {
+  
+  
+  
+  width: 15.2542372881%;
+  float: left;
+  
+  margin-right: 1.6949152542%;
+  
+  
+  margin-left: 49.1525423729%; }
+  @media  and (min-width: 20em) {
+    .testing3 {
+      
+      
+      
+      width: 32.2033898305%;
+      float: left;
+      
+      margin-right: 1.6949152542%;
+      
+      
+      margin-left: 23.7288135593%; } }
+
 /*# sourceMappingURL=styles.css.map */
