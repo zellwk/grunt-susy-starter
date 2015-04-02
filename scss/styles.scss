@@ -1,29 +1,46 @@
+
 @import "normalize";
 @import "../bower_components/susy/sass/susy";
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 
 $susy: (
-  columns: 12, 
-  container: 1140px,
-  gutters: 0.25,
-  global-box-sizing: border-box,
-  debug: (image: show-columns)
+    columns: 4, 
+    gutters: 0.25,
+    global-box-sizing: border-box,
+    debug: (image: show-columns)
   );
 
-.testing {
-  @include span(12);
+@include border-box-sizing;
+
+.l-wrap {
+    @include container(1140px);
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.testing2 {
-  @include span(2);
-  margin-left: span(4);
+.l-content {
+    @include span(4);
+
+    height: 80vh;
+    background-color: steelblue;
+
+    @include breakpoint(768px) {
+        @include span(3 of 4);
+    }
 }
 
-.testing3 {
-  @include span(2);
-  margin-left: span(6);
-  @include breakpoint(20em) {
-    @include span(4); 
-    margin-left: span(3);
-  }
+.l-sidebar {
+    @include span(4);
+
+    height: 80vh;
+    background-color: mediumseagreen;
+
+    @include breakpoint(768px) {
+        @include span(last 1 of 4);
+    }
+}
+
+h2 {
+    padding: 0.5rem 0 0 1rem;
+    color: black;
 }
