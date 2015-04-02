@@ -36,7 +36,7 @@ $ bower install
 
 ## Usage 
 
-The gruntfile in this project is setup to run `grunt-sass`,  `grunt-browsersync` and `grunt-contrib-watch`.
+The gruntfile in this project is setup to run `grunt-sass`,  `grunt-browser-sync` and `grunt-contrib-watch`.
 
 Use the `grunt` command to start the process. 
 
